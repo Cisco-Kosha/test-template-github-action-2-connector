@@ -1,0 +1,53 @@
+{
+  "version": "2.0.0",
+  "fields": [
+    {
+      "field": "AUTH_TYPE",
+      "displayName": "Test-Template-Github-Action-2 Auth Type",
+      "type": "String",
+      "minLength": 4,
+      "maxLength": 60,
+      "required": true,
+      "description": "Test-Template-Github-Action-2 API Auth Type",
+      "default": "BASIC_AUTH",
+      "example": "BASIC_AUTH",
+      "helpSection": ""
+    },
+    {
+      "field": "SERVER_URL",
+      "displayName": "Test-Template-Github-Action-2 Server Url",
+      "type": "String",
+      "minLength": 10,
+      "maxLength": 50,
+      "required": true,
+      "description": "Test-Template-Github-Action-2 API Server Url",
+      "default": "https://test.com",
+      "example": "https://test.com",
+      "helpSection": "use the default"
+    },
+    {
+      "field": "USERNAME",
+      "displayName": "Test-Template-Github-Action-2 Username",
+      "type": "String",
+      "minLength": 10,
+      "maxLength": 50,
+      "required": true,
+      "description": "Test-Template-Github-Action-2 API Username",
+      "default": "",
+      "example": "304720394u3",
+      "helpSection": "find in the settings section"
+    },
+    {
+      "field": "PASSWORD",
+      "displayName": "Test-Template-Github-Action-2 Password",
+      "type": "String",
+      "minLength": 10,
+      "maxLength": 50,
+      "required": true,
+      "description": "Test-Template-Github-Action-2 API Password",
+      "default": "",
+      "example": "304720394u3",
+      "helpSection": "find in the settings section"
+    }
+  ]
+}
