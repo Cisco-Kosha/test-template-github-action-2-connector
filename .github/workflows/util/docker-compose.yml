@@ -1,0 +1,11 @@
+services:
+  passthrough_container:
+    image: test
+    ports:
+      - "8010:8010"
+    environment:
+      - AUTH_TYPE=${AUTH_TYPE}
+      - SERVER_URL=${SERVER_URL}
+      - USERNAME=${USERNAME}
+      - PASSWORD=${PASSWORD}
+      - HEALTH_ENDPOINT=${HEALTH_ENDPOINT}
